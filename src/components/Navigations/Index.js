@@ -25,7 +25,7 @@ const Nav = () => {
       >
         <AiOutlineUser />
       </a>
-      <a
+      {/* <a
         href="#services"
         onClick={() => {
           setActiveNav("#services");
@@ -33,7 +33,7 @@ const Nav = () => {
         className={activeNav === "#services" ? "active" : ""}
       >
         <RiServiceLine />
-      </a>
+      </a> */}
       <a
         href="#projects"
         onClick={() => {
