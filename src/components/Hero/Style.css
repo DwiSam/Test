@@ -1,0 +1,102 @@
+.hero {
+  margin: 0 5.5rem 8rem;
+  padding-top: 8rem;
+  display: flex;
+}
+
+.name {
+  margin-top: 0.8rem;
+  color: #b1aafe;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.h-info {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 2rem;
+}
+
+.h-connect {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 3.5rem 0;
+}
+
+@keyframes slideFromUp {
+  0% {
+    -webkit-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.h-left {
+  flex: 1.5;
+  padding: 0px 0px 0px 50px;
+  animation: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s 1 normal forwards
+    running slideFromUp;
+}
+
+.h-right {
+  flex: 1;
+}
+
+.h-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  animation: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s 1 normal forwards
+    running slideFromUp;
+}
+
+@media (max-width: 481px) {
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .hero {
+    display: block;
+    margin: 8rem 1.4rem 1rem;
+    padding: 0;
+  }
+
+  .h-left {
+    padding: 0px;
+  }
+
+  .h-name {
+    text-align: center;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .h-info {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  .h-connect {
+    justify-content: center;
+    margin: 3rem;
+  }
+
+  .logos {
+    height: 40px;
+    width: 40px;
+  }
+
+  .h-box {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+}
