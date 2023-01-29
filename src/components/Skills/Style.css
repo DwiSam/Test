@@ -33,17 +33,17 @@
   position: absolute;
 }
 
-.s-card>:nth-child(1) {
+.s-card > :nth-child(1) {
   left: 56%;
   top: 0rem;
 }
 
-.s-card>:nth-child(2) {
+.s-card > :nth-child(2) {
   right: 53%;
   top: 25%;
 }
 
-.s-card>:nth-child(3) {
+.s-card > :nth-child(3) {
   left: 52%;
   top: 49%;
 }
@@ -123,7 +123,7 @@
   .skills {
     display: block;
     padding: 0;
-    height: 40rem;
+    height: 82rem;
     margin: 10rem 0 0rem;
   }
 
