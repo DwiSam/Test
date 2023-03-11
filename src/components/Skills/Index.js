@@ -9,9 +9,7 @@ const Skills = () => {
       <div className="skills" id="Skills">
         <div className="s-info">
           <div className="s-head">
-            <p>
-              {"Keahlian"}
-           </p>
+            <p>{"Keahlian"}</p>
           </div>
         </div>
         <div className="s-card">
@@ -31,11 +29,10 @@ const Skills = () => {
             w1={"80%"}
             l2={"Photoshop"}
             w2={"70%"}
-            l3={"Figma"}
+            l3={"Canva"}
             w3={"70%"}
           />
           <Cards
-
             header={" Public Speaking"}
             l1={"Pembawa Acara (MC)"}
             w1={"90%"}
@@ -53,7 +50,7 @@ const Skills = () => {
               <p>Microsoft Power Point</p>
               <p>Adobe Illustrator</p>
               <p>Photosop</p>
-              <p>Pigma</p>
+              <p>Canva</p>
               <p>MC</p>
               <p>Customer Service</p>
               <p>Marketing</p>
